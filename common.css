@@ -1,5 +1,4 @@
 *{margin:0;padding:0;}
-/* html, body {width: 100%; height: 100%;} */
 img,fieldset{border:none;}
 ul,ol{list-style:none;}
 .clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both;float:none;font-size:0;}
@@ -35,8 +34,10 @@ a,a[href],a:focus{outline:none;}
 .posRelative {position: relative;}
 
 .pluginList {margin: 5%;}
+.pluginList > li > ul {margin: 0 0 0 40px;}
+.pluginList > li > ul > li a {display: block; text-decoration: none; font: normal 1.0em/1em 'BebasRegular', arial; color: #444; padding: 0.4em; background-color: #ededed; -webkit-transition: background 0.4s ease; -moz-transition: background 0.4s ease; -o-transition: background 0.4s ease; transition: background 0.4s ease; -moz-border-radius: 25px; -webkit-border-radius: 25px; -khtml-border-radius: 25px; border-radius: 25px;}
 .pluginList li {margin-top: 10px;}
-.pluginList li:first-child {margin-top: 0;}
-.pluginList a {float: left; text-decoration: none; font: normal 1.4em/1.2em 'BebasRegular', arial; color: #444; padding: 0.4em; background-color: #ededed; -webkit-transition: background 0.4s ease; -moz-transition: background 0.4s ease; -o-transition: background 0.4s ease; transition: background 0.4s ease; -moz-border-radius: 25px; -webkit-border-radius: 25px; -khtml-border-radius: 25px; border-radius: 25px;}
-.pluginList span {font: normal 0.9em/2em 'BebasRegular',arial; float: left; width: 30px; text-align: center; padding: 0.4em; margin: 0 10px 0 0; background-color: #ededed; -moz-border-radius: 25px; -webkit-border-radius: 25px; -khtml-border-radius: 25px; border-radius: 25px;}
+.pluginList > li:first-child {margin-top: 0;}
+.pluginList a, .pluginList > li strong {display: block; text-decoration: none; font: normal 1.4em/1.2em 'BebasRegular', arial; color: #444; padding: 0.3em; background-color: #ededed; -webkit-transition: background 0.4s ease; -moz-transition: background 0.4s ease; -o-transition: background 0.4s ease; transition: background 0.4s ease; -moz-border-radius: 25px; -webkit-border-radius: 25px; -khtml-border-radius: 25px; border-radius: 25px;}
+.pluginList span {color: white; font: normal 0.9em/2em 'BebasRegular',arial; float: left; width: 30px; text-align: center; padding: 0.4em; margin: 0 10px 0 0; background-color: #444; -moz-border-radius: 25px; -webkit-border-radius: 25px; -khtml-border-radius: 25px; border-radius: 25px;}
 .pluginList a:hover {background-color: #444; color: #fff;}
